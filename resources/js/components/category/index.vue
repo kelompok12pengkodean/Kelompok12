@@ -6,9 +6,9 @@
 					<!-- Simple Tables -->
 					<div class="card">
 						<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-							<h2 class="m-0 font-weight-bold text-primary">Category List</h2>
+							<h2 class="m-0 font-weight-bold text-warning">Category List</h2>
 							<input type="text" placeholder="Search By Phone" v-model="searchTerm" class="form-control" style="width: 300px;margin-right: -900px;">
-							<router-link to="/store-category" class="btn btn-primary float-right" style="margin-top: 6px;margin-right: 6px;">Add Category</router-link>
+							<router-link to="/store-category" class="btn btn-warning float-right" style="margin-top: 6px;margin-right: 6px;">Add Category</router-link>
 						</div>
 						<div class="table-responsive">
 							<table class="table align-items-center table-flush">
@@ -22,7 +22,7 @@
 									<tr v-for="category in filtersearch" :key="category.id">
 										<td>{{ category.category_name }}</td>
 										<td>
-											<router-link :to="{name: 'editCategory', params: {id: category.id}}" class="btn btn-sm btn-primary">Edit</router-link>
+											<router-link :to="{name: 'editCategory', params: {id: category.id}}" class="btn btn-sm btn-warning">Edit</router-link>
 											<a @click="deleteCategory(category.id)" class="btn btn-sm btn-danger" style="color: white">Delete</a>
 										</td>
 									</tr>

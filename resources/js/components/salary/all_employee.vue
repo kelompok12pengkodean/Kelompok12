@@ -6,9 +6,9 @@
 					<!-- Simple Tables -->
 					<div class="card">
 						<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-							<h2 class="m-0 font-weight-bold text-primary">Employee List</h2>
+							<h2 class="m-0 font-weight-bold text-warning">Employee List</h2>
 							<input type="text" placeholder="Search By Phone" v-model="searchTerm" class="form-control" style="width: 300px;margin-right: -900px;">
-							<router-link to="/salary" class="btn btn-primary float-right" style="margin-top: 6px;margin-right: 6px;">All Salary</router-link>
+							<router-link to="/salary" class="btn btn-warning float-right" style="margin-top: 6px;margin-right: 6px;">All Salary</router-link>
 						</div>
 						<div class="table-responsive">
 							<table class="table align-items-center table-flush">
@@ -30,7 +30,7 @@
 										<td>{{ employee.salary }}</td>
 										<td>{{ employee.joining_date }}</td>
 										<td>
-											<router-link :to="{name: 'paySalary', params: {id: employee.id}}" class="btn btn-sm btn-primary">Pay Salary</router-link>
+											<router-link :to="{name: 'paySalary', params: {id: employee.id}}" class="btn btn-sm btn-warning">Pay Salary</router-link>
 										</td>
 									</tr>
 								</tbody>

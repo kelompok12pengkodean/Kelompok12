@@ -6,7 +6,7 @@
 					<!-- Simple Tables -->
 					<div class="card">
 						<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-							<h2 class="m-0 font-weight-bold text-primary">Today Orders</h2>
+							<h2 class="m-0 font-weight-bold text-warning">Today Orders</h2>
 							<input type="text" placeholder="Search By Phone" v-model="searchTerm" class="form-control" style="width: 300px;">
 						</div>
 						<div class="table-responsive">
@@ -29,7 +29,7 @@
 										<td>{{ order.due }}</td>
 										<td>{{ order.payBy }}</td>
 										<td>
-											<router-link :to="{name: 'orderDetails', params: {id: order.id}}" class="btn btn-sm btn-primary">View</router-link>
+											<router-link :to="{name: 'orderDetails', params: {id: order.id}}" class="btn btn-sm btn-warning">View</router-link>
 										</td>
 									</tr>
 								</tbody>

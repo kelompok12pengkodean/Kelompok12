@@ -5,7 +5,7 @@
 				<div class="card-body p-0">
 					<div class="row">
 						<div class="col-lg-12">
-							<router-link to="/category" class="btn btn-primary float-right" style="margin-top: 6px;margin-right: 6px;">All Category</router-link>
+							<router-link to="/category" class="btn btn-warning float-right" style="margin-top: 6px;margin-right: 6px;">All Category</router-link>
 							<div class="login-form">
 								<div class="text-center">
 									<h1 class="h4 text-gray-900 mb-4">Edit Category</h1>
@@ -17,7 +17,7 @@
 									</div>
 									
 									<div class="form-group">
-										<button type="submit" class="btn btn-primary btn-block">Update</button>
+										<button type="submit" class="btn btn-warning btn-block">Update</button>
 									</div>
 								</form>
 								<div class="text-center">

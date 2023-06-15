@@ -15,8 +15,8 @@
             <div class="col-xl-4 col-lg-5">
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h5 class="m-0 font-weight-bold text-primary">Expense Insert</h5>
-                  <a href="" class="btn btn-primary btn-sm">Add Customer</a>
+                  <h5 class="m-0 font-weight-bold text-warning">Expense Insert</h5>
+                  <a href="" class="btn btn-warning btn-sm">Add Customer</a>
                 </div>
                 <div class="card-body">
                 	<div class="table-responsive" style="font-size: 12px">
@@ -36,12 +36,12 @@
                 					<td>
                 						<div class="input-group bootstrap-touchspin bootstrap-touchspin-injected">
                 							<span class="input-group-btn input-group-prepend">
-                                                <button @click.prevent="decrement(product.id)" class="btn btn-primary btn-sm bootstrap-touchspin-down" type="button" v-if="product.product_quantity >= 2">-</button>
-                								<button @click.prevent="decrement(product.id)" class="btn btn-primary btn-sm bootstrap-touchspin-down" type="button" v-else="" disabled="">-</button>
+                                                <button @click.prevent="decrement(product.id)" class="btn btn-warning btn-sm bootstrap-touchspin-down" type="button" v-if="product.product_quantity >= 2">-</button>
+                								<button @click.prevent="decrement(product.id)" class="btn btn-warning btn-sm bootstrap-touchspin-down" type="button" v-else="" disabled="">-</button>
                 							</span>
                 							<input type="text" readonly class="form-control" :value="product.product_quantity" style="width: 28px;">
                 							<span class="input-group-btn input-group-append">
-                								<button @click.prevent="increment(product.id)" class="btn btn-primary btn-sm bootstrap-touchspin-up" type="button">+</button>
+                								<button @click.prevent="increment(product.id)" class="btn btn-warning btn-sm bootstrap-touchspin-up" type="button">+</button>
                 							</span>
                 						</div>
                 					</td>
@@ -116,7 +116,7 @@
             <div class="col-xl-8 col-lg-7">
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h5 class="m-0 font-weight-bold text-primary">Products</h5>
+                  <h5 class="m-0 font-weight-bold text-warning">Products</h5>
 
                   <input type="text" placeholder="Search" v-model="searchTerm" class="form-control" style="width: 300px;">
                 </div>

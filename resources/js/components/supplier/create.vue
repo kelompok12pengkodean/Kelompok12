@@ -5,7 +5,7 @@
 				<div class="card-body p-0">
 					<div class="row">
 						<div class="col-lg-12">
-							<router-link to="/employee" class="btn btn-primary float-right" style="margin-top: 6px;margin-right: 6px;">All Supplier</router-link>
+							<router-link to="/employee" class="btn btn-warning float-right" style="margin-top: 6px;margin-right: 6px;">All Supplier</router-link>
 							<div class="login-form">
 								<div class="text-center">
 									<h1 class="h4 text-gray-900 mb-4">Add Supplier</h1>
@@ -53,7 +53,7 @@
 									</div>
 									
 									<div class="form-group">
-										<button type="submit" class="btn btn-primary btn-block">Submit</button>
+										<button type="submit" class="btn btn-warning btn-block">Submit</button>
 									</div>
 								</form>
 								<div class="text-center">

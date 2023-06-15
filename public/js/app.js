@@ -49431,7 +49431,7 @@
                           staticClass: "font-weight-bold small",
                           attrs: { to: "register" }
                         },
-                        [_vm._v("Create an Account!")]
+                        [_vm._v("Buat Akun!")]
                       )
                     ],
                     1
@@ -49453,7 +49453,7 @@
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [
-          _vm._v("Forget Password?")
+          _vm._v("Lupa Sandi?")
         ])
       ])
     },
@@ -49469,7 +49469,7 @@
               type: "email",
               id: "exampleInputEmail",
               "aria-describedby": "emailHelp",
-              placeholder: "Enter Email Address"
+              placeholder: "Masukkan Alamat Email"
             }
           })
         ]),
@@ -49478,10 +49478,10 @@
           _c(
             "a",
             {
-              staticClass: "btn btn-primary btn-block",
+              staticClass: "btn btn-warning btn-block",
               attrs: { href: "index.html" }
             },
-            [_vm._v("Reset Password")]
+            [_vm._v("Setel Ulang Kata Sandi")]
           )
         ])
       ])
@@ -49544,7 +49544,7 @@
                             type: "email",
                             id: "exampleInputEmail",
                             "aria-describedby": "emailHelp",
-                            placeholder: "Enter Email Address"
+                            placeholder: "Masukkan Alamat Email"
                           },
                           domProps: { value: _vm.form.email },
                           on: {
@@ -49578,7 +49578,7 @@
                           attrs: {
                             type: "password",
                             id: "exampleInputPassword",
-                            placeholder: "Password"
+                            placeholder: "Sandi"
                           },
                           domProps: { value: _vm.form.password },
                           on: {
@@ -49616,7 +49616,7 @@
                           staticClass: "font-weight-bold small",
                           attrs: { to: "register" }
                         },
-                        [_vm._v("Create an Account!")]
+                        [_vm._v("Buat Akun!")]
                       ),
                       _vm._v(" | \n\t\t\t\t\t\t\t\t"),
                       _c(
@@ -49625,7 +49625,7 @@
                           staticClass: "font-weight-bold small",
                           attrs: { to: "forget" }
                         },
-                        [_vm._v("Forget Password")]
+                        [_vm._v("Lupa Sandi")]
                       )
                     ],
                     1
@@ -49648,7 +49648,7 @@
       return _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [
           _vm._v(
-            "An Inventory and Sales Management System using Laravel 7, Vue js with API"
+            "Selamat Datang di Sistem Manajemen Persediaan CV Semangat 12"
           )
         ])
       ])
@@ -49676,7 +49676,7 @@
                 staticClass: "custom-control-label",
                 attrs: { for: "customCheck" }
               },
-              [_vm._v("Remember\n\t\t\t\t\t\t\t\t\t\tMe")]
+              [_vm._v("Ingat Saya?")]
             )
           ]
         )
@@ -49689,8 +49689,8 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
-          [_vm._v("Login")]
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
+          [_vm._v("Masuk")]
         )
       ])
     }
@@ -49774,7 +49774,7 @@
                           attrs: {
                             type: "text",
                             id: "exampleInputFirstName",
-                            placeholder: "Enter Full Name"
+                            placeholder: "Masukkan Nama Lengkap"
                           },
                           domProps: { value: _vm.form.name },
                           on: {
@@ -49809,7 +49809,7 @@
                             type: "email",
                             id: "exampleInputEmail",
                             "aria-describedby": "emailHelp",
-                            placeholder: "Enter Email Address"
+                            placeholder: "Masukkan Alamat Email"
                           },
                           domProps: { value: _vm.form.email },
                           on: {
@@ -49843,7 +49843,7 @@
                           attrs: {
                             type: "password",
                             id: "exampleInputPassword",
-                            placeholder: "Password"
+                            placeholder: "Sandi"
                           },
                           domProps: { value: _vm.form.password },
                           on: {
@@ -49877,7 +49877,7 @@
                           attrs: {
                             type: "password",
                             id: "exampleInputPasswordRepeat",
-                            placeholder: "Repeat Password"
+                            placeholder: "Konfirmasi Sandi"
                           },
                           domProps: { value: _vm.form.password_confirmation },
                           on: {
@@ -49917,7 +49917,7 @@
                           staticClass: "font-weight-bold small",
                           attrs: { to: "/" }
                         },
-                        [_vm._v("Already have an account?")]
+                        [_vm._v("Sudah Memiliki Akun?")]
                       ),
                       _vm._v(" | \n\t\t\t\t\t\t\t\t"),
                       _c(
@@ -49926,7 +49926,7 @@
                           staticClass: "font-weight-bold small",
                           attrs: { to: "forget" }
                         },
-                        [_vm._v("Forget Password")]
+                        [_vm._v("Lupa Sandi")]
                       )
                     ],
                     1
@@ -49947,7 +49947,7 @@
       var _h = _vm.$createElement
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-center" }, [
-        _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [_vm._v("Register")])
+        _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [_vm._v("Daftar")])
       ])
     },
     function() {
@@ -49957,8 +49957,8 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
-          [_vm._v("Register")]
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
+          [_vm._v("Daftar")]
         )
       ])
     }
@@ -49996,11 +49996,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/category" }
                     },
-                    [_vm._v("All Category")]
+                    [_vm._v("Semua Kategori")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -50031,7 +50031,7 @@
                             attrs: {
                               type: "text",
                               id: "exampleInputFirstName",
-                              placeholder: "Enter Category Name"
+                              placeholder: "Tambah Nama Kategori"
                             },
                             domProps: { value: _vm.form.category_name },
                             on: {
@@ -50079,7 +50079,7 @@
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [
-          _vm._v("Add Category")
+          _vm._v("Tambah Kategori")
         ])
       ])
     },
@@ -50090,8 +50090,8 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
-          [_vm._v("Submit")]
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
+          [_vm._v("Kirim")]
         )
       ])
     }
@@ -50129,11 +50129,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/category" }
                     },
-                    [_vm._v("All Category")]
+                    [_vm._v("Semua Kategori")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -50164,7 +50164,7 @@
                             attrs: {
                               type: "text",
                               id: "exampleInputFirstName",
-                              placeholder: "Enter Your Full Name"
+                              placeholder: "Masukkan Nama Lengkap Anda"
                             },
                             domProps: { value: _vm.form.category_name },
                             on: {
@@ -50223,7 +50223,7 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
           [_vm._v("Update")]
         )
       ])
@@ -50262,8 +50262,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Category List")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("Daftar Kategori")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -50277,7 +50277,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -50292,11 +50292,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/store-category" }
                     },
-                    [_vm._v("Add Category")]
+                    [_vm._v("Tambah Kategori")]
                   )
                 ],
                 1
@@ -50321,7 +50321,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "editCategory",
@@ -50329,7 +50329,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Edit")]
+                                [_vm._v("Ganti")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -50343,7 +50343,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Delete")]
+                                [_vm._v("Hapus")]
                               )
                             ],
                             1
@@ -50370,9 +50370,9 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Category Name")]),
+          _c("th", [_vm._v("Nama Kategori")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -50410,11 +50410,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/customer" }
                     },
-                    [_vm._v("All Customer")]
+                    [_vm._v("Semua Pelanggan")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -50448,7 +50448,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Enter Your Full Name"
+                                  placeholder: "Masukkan Nama Lengkap Anda"
                                 },
                                 domProps: { value: _vm.form.name },
                                 on: {
@@ -50486,7 +50486,7 @@
                                 attrs: {
                                   type: "email",
                                   id: "exampleInputEmail",
-                                  placeholder: "Enter Email"
+                                  placeholder: "Masukkan Email"
                                 },
                                 domProps: { value: _vm.form.email },
                                 on: {
@@ -50528,7 +50528,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputPhone",
-                                  placeholder: "Enter Phone Number"
+                                  placeholder: "Masukkan Nomor Telepon"
                                 },
                                 domProps: { value: _vm.form.phone },
                                 on: {
@@ -50566,7 +50566,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputAddress",
-                                  placeholder: "Enter Full Address"
+                                  placeholder: "Masukkan Alamat Lengkap"
                                 },
                                 domProps: { value: _vm.form.address },
                                 on: {
@@ -50614,7 +50614,7 @@
                                       staticClass: "custom-file-label",
                                       attrs: { for: "customFile" }
                                     },
-                                    [_vm._v("Choose file")]
+                                    [_vm._v("Pilih Foto")]
                                   )
                                 ]
                               )
@@ -50651,7 +50651,7 @@
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [
-          _vm._v("Add Customer")
+          _vm._v("Tambah Pelanggan")
         ])
       ])
     },
@@ -50662,8 +50662,8 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
-          [_vm._v("Submit")]
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
+          [_vm._v("Kirim")]
         )
       ])
     }
@@ -50701,11 +50701,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/customer" }
                     },
-                    [_vm._v("All Customer")]
+                    [_vm._v("Semua Pelanggan")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -50739,7 +50739,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Enter Your Full Name"
+                                  placeholder: "Masukkan Nama Lengkap Anda"
                                 },
                                 domProps: { value: _vm.form.name },
                                 on: {
@@ -50777,7 +50777,7 @@
                                 attrs: {
                                   type: "email",
                                   id: "exampleInputEmail",
-                                  placeholder: "Enter Email"
+                                  placeholder: "Masukkan Email"
                                 },
                                 domProps: { value: _vm.form.email },
                                 on: {
@@ -50819,7 +50819,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputPhone",
-                                  placeholder: "Enter Phone Number"
+                                  placeholder: "Masukkan Nomor Telepon"
                                 },
                                 domProps: { value: _vm.form.phone },
                                 on: {
@@ -50857,7 +50857,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputAddress",
-                                  placeholder: "Enter Full Address"
+                                  placeholder: "Masukkan Alamat Lengkap"
                                 },
                                 domProps: { value: _vm.form.address },
                                 on: {
@@ -50905,7 +50905,7 @@
                                       staticClass: "custom-file-label",
                                       attrs: { for: "customFile" }
                                     },
-                                    [_vm._v("Choose file")]
+                                    [_vm._v("Pilih Foto")]
                                   )
                                 ]
                               )
@@ -50953,7 +50953,7 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
           [_vm._v("Update")]
         )
       ])
@@ -50992,8 +50992,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Customer List")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("Daftar Pelanggan")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -51007,7 +51007,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -51022,11 +51022,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/store-customer" }
                     },
-                    [_vm._v("Add Customer")]
+                    [_vm._v("Tambah Pelanggan")]
                   )
                 ],
                 1
@@ -51063,7 +51063,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "editCustomer",
@@ -51071,7 +51071,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Edit")]
+                                [_vm._v("Ganti")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -51085,7 +51085,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Delete")]
+                                [_vm._v("Hapus")]
                               )
                             ],
                             1
@@ -51112,17 +51112,17 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Name")]),
+          _c("th", [_vm._v("Nama")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Photo")]),
+          _c("th", [_vm._v("Foto")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Phone")]),
+          _c("th", [_vm._v("Telepon")]),
           _vm._v(" "),
           _c("th", [_vm._v("Email")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Address")]),
+          _c("th", [_vm._v("Alamat")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -51160,11 +51160,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/employee" }
                     },
-                    [_vm._v("All Employee")]
+                    [_vm._v("Semua Karyawan")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -51198,7 +51198,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Enter Your Full Name"
+                                  placeholder: "Masukkan Nama Lengkap Anda"
                                 },
                                 domProps: { value: _vm.form.name },
                                 on: {
@@ -51236,7 +51236,7 @@
                                 attrs: {
                                   type: "email",
                                   id: "exampleInputEmail",
-                                  placeholder: "Enter Email"
+                                  placeholder: "Masukkan Email"
                                 },
                                 domProps: { value: _vm.form.email },
                                 on: {
@@ -51278,7 +51278,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputPhone",
-                                  placeholder: "Enter Phone Number"
+                                  placeholder: "Masukkan Nomor Telepon"
                                 },
                                 domProps: { value: _vm.form.phone },
                                 on: {
@@ -51316,7 +51316,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Salary"
+                                  placeholder: "Masukkan Gaji"
                                 },
                                 domProps: { value: _vm.form.salary },
                                 on: {
@@ -51358,7 +51358,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputAddress",
-                                  placeholder: "Enter Full Address"
+                                  placeholder: "Masukkan Alamat Lengkap"
                                 },
                                 domProps: { value: _vm.form.address },
                                 on: {
@@ -51396,7 +51396,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputNid",
-                                  placeholder: "Enter NID"
+                                  placeholder: "Masukkan NIK"
                                 },
                                 domProps: { value: _vm.form.nid },
                                 on: {
@@ -51434,7 +51434,7 @@
                                 attrs: {
                                   type: "date",
                                   id: "exampleInputDate",
-                                  placeholder: "Enter Joining Date"
+                                  placeholder: "Masukkan Tanggal Bergabung"
                                 },
                                 domProps: { value: _vm.form.joining_date },
                                 on: {
@@ -51476,7 +51476,7 @@
                                       staticClass: "custom-file-label",
                                       attrs: { for: "customFile" }
                                     },
-                                    [_vm._v("Choose file")]
+                                    [_vm._v("Pilih Foto")]
                                   )
                                 ]
                               )
@@ -51513,7 +51513,7 @@
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [
-          _vm._v("Add Employee")
+          _vm._v("Tambah Karyawan")
         ])
       ])
     },
@@ -51524,8 +51524,8 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
-          [_vm._v("Submit")]
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
+          [_vm._v("Kirim")]
         )
       ])
     }
@@ -51563,11 +51563,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/employee" }
                     },
-                    [_vm._v("All Employee")]
+                    [_vm._v("Semua Karyawan")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -51601,7 +51601,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Enter Your Full Name"
+                                  placeholder: "Masukkan Nama Lengkap Anda"
                                 },
                                 domProps: { value: _vm.form.name },
                                 on: {
@@ -51639,7 +51639,7 @@
                                 attrs: {
                                   type: "email",
                                   id: "exampleInputEmail",
-                                  placeholder: "Enter Email"
+                                  placeholder: "Masukkan Email"
                                 },
                                 domProps: { value: _vm.form.email },
                                 on: {
@@ -51681,7 +51681,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputPhone",
-                                  placeholder: "Enter Phone Number"
+                                  placeholder: "Masukkan Nomor Telepon"
                                 },
                                 domProps: { value: _vm.form.phone },
                                 on: {
@@ -51719,7 +51719,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Salary"
+                                  placeholder: "Masukkan Gaji"
                                 },
                                 domProps: { value: _vm.form.salary },
                                 on: {
@@ -51761,7 +51761,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputAddress",
-                                  placeholder: "Enter Full Address"
+                                  placeholder: "Masukkan Alamat Lengkap"
                                 },
                                 domProps: { value: _vm.form.address },
                                 on: {
@@ -51799,7 +51799,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputNid",
-                                  placeholder: "Enter NID"
+                                  placeholder: "Masukkan NIK"
                                 },
                                 domProps: { value: _vm.form.nid },
                                 on: {
@@ -51879,7 +51879,7 @@
                                       staticClass: "custom-file-label",
                                       attrs: { for: "customFile" }
                                     },
-                                    [_vm._v("Choose file")]
+                                    [_vm._v("Pilih Foto")]
                                   )
                                 ]
                               )
@@ -51927,7 +51927,7 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
           [_vm._v("Update")]
         )
       ])
@@ -51966,8 +51966,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Employee List")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("Daftar Karyawan")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -51981,7 +51981,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -51996,11 +51996,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/store-employee" }
                     },
-                    [_vm._v("Add Employee")]
+                    [_vm._v("Tambah Karyawan")]
                   )
                 ],
                 1
@@ -52037,7 +52037,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "editEmployee",
@@ -52045,7 +52045,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Edit")]
+                                [_vm._v("Ganti")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -52059,7 +52059,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Delete")]
+                                [_vm._v("Hapus")]
                               )
                             ],
                             1
@@ -52086,17 +52086,17 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Name")]),
+          _c("th", [_vm._v("Nama")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Photo")]),
+          _c("th", [_vm._v("Foto")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Phone")]),
+          _c("th", [_vm._v("Telepon")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Salary")]),
+          _c("th", [_vm._v("Gaji")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Joining Date")]),
+          _c("th", [_vm._v("Tanggal Bergabung")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -52134,11 +52134,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/expense" }
                     },
-                    [_vm._v("All Expense")]
+                    [_vm._v("Semua Beban")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -52169,7 +52169,7 @@
                             attrs: {
                               type: "text",
                               id: "exampleInputFirstName",
-                              placeholder: "Enter Expense Details",
+                              placeholder: "Masukkan Rincian Biaya",
                               rows: "3"
                             },
                             domProps: { value: _vm.form.details },
@@ -52205,7 +52205,7 @@
                               type: "number",
                               step: "0.01",
                               id: "exampleInputFirstName",
-                              placeholder: "Enter Expense Amount"
+                              placeholder: "Masukkan Jumlah Biaya"
                             },
                             domProps: { value: _vm.form.amount },
                             on: {
@@ -52287,7 +52287,7 @@
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [
-          _vm._v("Add Expense")
+          _vm._v("Tambah Beban")
         ])
       ])
     },
@@ -52298,8 +52298,8 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
-          [_vm._v("Submit")]
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
+          [_vm._v("Kirim")]
         )
       ])
     }
@@ -52337,11 +52337,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/expense" }
                     },
-                    [_vm._v("All Expense")]
+                    [_vm._v("Semua Beban")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -52372,7 +52372,7 @@
                             attrs: {
                               type: "text",
                               id: "exampleInputFirstName",
-                              placeholder: "Enter Expense Details",
+                              placeholder: "Masukkan Rincian Biaya",
                               rows: "3"
                             },
                             domProps: { value: _vm.form.details },
@@ -52408,7 +52408,7 @@
                               type: "number",
                               step: "0.01",
                               id: "exampleInputFirstName",
-                              placeholder: "Enter Expense Amount"
+                              placeholder: "Masukkan Jumlah Biaya"
                             },
                             domProps: { value: _vm.form.amount },
                             on: {
@@ -52501,7 +52501,7 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
           [_vm._v("Update")]
         )
       ])
@@ -52540,8 +52540,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Expense List")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("Daftar Beban")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -52555,7 +52555,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -52570,11 +52570,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/store-expense" }
                     },
-                    [_vm._v("Add Expense")]
+                    [_vm._v("Tambah Beban")]
                   )
                 ],
                 1
@@ -52609,7 +52609,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "editExpense",
@@ -52617,7 +52617,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Edit")]
+                                [_vm._v("Ganti")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -52631,7 +52631,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Delete")]
+                                [_vm._v("Hapus")]
                               )
                             ],
                             1
@@ -52660,11 +52660,11 @@
         _c("tr", [
           _c("th", [_vm._v("Details")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Amount")]),
+          _c("th", [_vm._v("Jumlah")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Date")]),
+          _c("th", [_vm._v("Tanggal")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -52704,13 +52704,13 @@
                     {
                       staticClass: "text-xs font-weight-bold text-uppercase mb-1"
                     },
-                    [_vm._v("Today Sell Amount")]
+                    [_vm._v("Jumlah Penjualan Hari Ini")]
                   ),
                   _vm._v(" "),
                   _c(
                     "div",
                     { staticClass: "h5 mb-0 font-weight-bold text-gray-800" },
-                    [_vm._v("$" + _vm._s(_vm.todaySells))]
+                    [_vm._v("Rp" + _vm._s(_vm.todaySells))]
                   ),
                   _vm._v(" "),
                   _vm._m(1)
@@ -52732,13 +52732,13 @@
                     {
                       staticClass: "text-xs font-weight-bold text-uppercase mb-1"
                     },
-                    [_vm._v("Today Income")]
+                    [_vm._v("Pendapatan Hari Ini")]
                   ),
                   _vm._v(" "),
                   _c(
                     "div",
                     { staticClass: "h5 mb-0 font-weight-bold text-gray-800" },
-                    [_vm._v("$" + _vm._s(_vm.income))]
+                    [_vm._v("Rp" + _vm._s(_vm.income))]
                   ),
                   _vm._v(" "),
                   _vm._m(3)
@@ -52760,7 +52760,7 @@
                     {
                       staticClass: "text-xs font-weight-bold text-uppercase mb-1"
                     },
-                    [_vm._v("Today Due")]
+                    [_vm._v("Jatuh Tempo Hari Ini")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -52768,7 +52768,7 @@
                     {
                       staticClass: "h5 mb-0 mr-3 font-weight-bold text-gray-800"
                     },
-                    [_vm._v("$" + _vm._s(_vm.due))]
+                    [_vm._v("Rp" + _vm._s(_vm.due))]
                   ),
                   _vm._v(" "),
                   _vm._m(5)
@@ -52790,13 +52790,13 @@
                     {
                       staticClass: "text-xs font-weight-bold text-uppercase mb-1"
                     },
-                    [_vm._v("Expense Amount")]
+                    [_vm._v("Jumlah Beban")]
                   ),
                   _vm._v(" "),
                   _c(
                     "div",
                     { staticClass: "h5 mb-0 font-weight-bold text-gray-800" },
-                    [_vm._v("$" + _vm._s(_vm.expense))]
+                    [_vm._v("Rp" + _vm._s(_vm.expense))]
                   ),
                   _vm._v(" "),
                   _vm._m(7)
@@ -52819,18 +52819,18 @@
                   "card-header py-3 d-flex flex-row align-items-center justify-content-between"
               },
               [
-                _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                  _vm._v("Stock Out Products")
+                _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                  _vm._v("Stok Produk Keluar")
                 ]),
                 _vm._v(" "),
                 _c(
                   "router-link",
                   {
-                    staticClass: "btn btn-primary float-right",
+                    staticClass: "btn btn-warning float-right",
                     staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                     attrs: { to: "/store-product" }
                   },
-                  [_vm._v("Add Product")]
+                  [_vm._v("Tambah Produk")]
                 )
               ],
               1
@@ -52879,7 +52879,7 @@
                             _c(
                               "router-link",
                               {
-                                staticClass: "btn btn-sm btn-primary",
+                                staticClass: "btn btn-sm btn-warning",
                                 attrs: {
                                   to: {
                                     name: "editStock",
@@ -52918,12 +52918,12 @@
         },
         [
           _c("h1", { staticClass: "h3 mb-0 text-gray-800" }, [
-            _vm._v("Dashboard")
+            _vm._v("Beranda")
           ]),
           _vm._v(" "),
           _c("ol", { staticClass: "breadcrumb" }, [
             _c("li", { staticClass: "breadcrumb-item" }, [
-              _c("a", { attrs: { href: "./" } }, [_vm._v("Home")])
+              _c("a", { attrs: { href: "./" } }, [_vm._v("Beranda")])
             ]),
             _vm._v(" "),
             _c(
@@ -52932,7 +52932,7 @@
                 staticClass: "breadcrumb-item active",
                 attrs: { "aria-current": "page" }
               },
-              [_vm._v("Dashboard")]
+              [_vm._v("Beranda")]
             )
           ])
         ]
@@ -52948,7 +52948,7 @@
           _vm._v(" 3.48%")
         ]),
         _vm._v(" "),
-        _c("span", [_vm._v("Since last month")])
+        _c("span", [_vm._v("Sejk Bulan Lalu")])
       ])
     },
     function() {
@@ -52956,7 +52956,7 @@
       var _h = _vm.$createElement
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "col-auto" }, [
-        _c("i", { staticClass: "fas fa-calendar fa-2x text-primary" })
+        _c("i", { staticClass: "fas fa-calendar fa-2x text-warning" })
       ])
     },
     function() {
@@ -52969,7 +52969,7 @@
           _vm._v(" 12%")
         ]),
         _vm._v(" "),
-        _c("span", [_vm._v("Since last years")])
+        _c("span", [_vm._v("Sejak Tahun Lalu")])
       ])
     },
     function() {
@@ -52990,7 +52990,7 @@
           _vm._v(" 20.4%")
         ]),
         _vm._v(" "),
-        _c("span", [_vm._v("Since last month")])
+        _c("span", [_vm._v("Sejak Bulan Lalu")])
       ])
     },
     function() {
@@ -53011,7 +53011,7 @@
           _vm._v(" 1.10%")
         ]),
         _vm._v(" "),
-        _c("span", [_vm._v("Since yesterday")])
+        _c("span", [_vm._v("Sejak Kemarin")])
       ])
     },
     function() {
@@ -53028,19 +53028,19 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Product Name")]),
+          _c("th", [_vm._v("Nama Produk")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Product Code")]),
+          _c("th", [_vm._v("Kode Produk")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Image")]),
+          _c("th", [_vm._v("Gambar")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Buying Price")]),
+          _c("th", [_vm._v("Harga Beli")]),
           _vm._v(" "),
           _c("th", [_vm._v("Status")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Quantity")]),
+          _c("th", [_vm._v("Kuantitas")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -53078,8 +53078,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Today Orders")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("Pesanan Hari Ini")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -53093,7 +53093,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -53134,7 +53134,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "orderDetails",
@@ -53142,7 +53142,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("View")]
+                                [_vm._v("Lihat")]
                               )
                             ],
                             1
@@ -53169,17 +53169,17 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Name")]),
+          _c("th", [_vm._v("Nama")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Total Amount")]),
+          _c("th", [_vm._v("Jumlah Total")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Pay")]),
+          _c("th", [_vm._v("Pembayaran")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Due")]),
+          _c("th", [_vm._v("Jatuh Tempo")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Pay By")]),
+          _c("th", [_vm._v("Metode Pembayaran")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -53359,7 +53359,7 @@
           _vm._v(" "),
           _c("ol", { staticClass: "breadcrumb" }, [
             _c("li", { staticClass: "breadcrumb-item" }, [
-              _c("a", { attrs: { href: "./" } }, [_vm._v("Home")])
+              _c("a", { attrs: { href: "./" } }, [_vm._v("Beranda")])
             ]),
             _vm._v(" "),
             _c(
@@ -53368,7 +53368,7 @@
                 staticClass: "breadcrumb-item active",
                 attrs: { "aria-current": "page" }
               },
-              [_vm._v("Dashboard")]
+              [_vm._v("Beranda")]
             )
           ])
         ]
@@ -53385,7 +53385,7 @@
             "card-header py-3 d-flex flex-row align-items-center justify-content-between"
         },
         [
-          _c("h5", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _c("h5", { staticClass: "m-0 font-weight-bold text-warning" }, [
             _vm._v("Order Details")
           ])
         ]
@@ -53402,7 +53402,7 @@
             "card-header py-3 d-flex flex-row align-items-center justify-content-between"
         },
         [
-          _c("h5", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _c("h5", { staticClass: "m-0 font-weight-bold text-warning" }, [
             _vm._v("Order Details")
           ])
         ]
@@ -53419,7 +53419,7 @@
             "card-header py-3 d-flex flex-row align-items-center justify-content-between"
         },
         [
-          _c("h5", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _c("h5", { staticClass: "m-0 font-weight-bold text-warning" }, [
             _vm._v("Ordered Products")
           ])
         ]
@@ -53431,15 +53431,15 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Product Name")]),
+          _c("th", [_vm._v("Nama Produk")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Code")]),
+          _c("th", [_vm._v("Kode")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Image")]),
+          _c("th", [_vm._v("Foto")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Qty")]),
+          _c("th", [_vm._v("Kuantitas")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Unit Price")]),
+          _c("th", [_vm._v("Harga Satuan")]),
           _vm._v(" "),
           _c("th", [_vm._v("Total")])
         ])
@@ -53519,7 +53519,7 @@
                                                 "button",
                                                 {
                                                   staticClass:
-                                                    "btn btn-primary btn-sm bootstrap-touchspin-down",
+                                                    "btn btn-warning btn-sm bootstrap-touchspin-down",
                                                   attrs: { type: "button" },
                                                   on: {
                                                     click: function($event) {
@@ -53536,7 +53536,7 @@
                                                 "button",
                                                 {
                                                   staticClass:
-                                                    "btn btn-primary btn-sm bootstrap-touchspin-down",
+                                                    "btn btn-warning btn-sm bootstrap-touchspin-down",
                                                   attrs: {
                                                     type: "button",
                                                     disabled: ""
@@ -53575,7 +53575,7 @@
                                             "button",
                                             {
                                               staticClass:
-                                                "btn btn-primary btn-sm bootstrap-touchspin-up",
+                                                "btn btn-warning btn-sm bootstrap-touchspin-up",
                                               attrs: { type: "button" },
                                               on: {
                                                 click: function($event) {
@@ -53651,7 +53651,7 @@
                           _vm._m(4),
                           _vm._v(" "),
                           _c("span", { staticClass: "text-muted" }, [
-                            _vm._v("$" + _vm._s(_vm.sub_total))
+                            _vm._v("Rp" + _vm._s(_vm.sub_total))
                           ])
                         ]
                       ),
@@ -53708,7 +53708,7 @@
                           _c(
                             "label",
                             { attrs: { for: "exampleFormControlSelect1" } },
-                            [_vm._v("Select Customer")]
+                            [_vm._v("Pilih Pelanggan")]
                           ),
                           _vm._v(" "),
                           _c(
@@ -53755,7 +53755,7 @@
                           _c(
                             "label",
                             { attrs: { for: "exampleFormControlInput1" } },
-                            [_vm._v("Pay")]
+                            [_vm._v("Pembayaran")]
                           ),
                           _vm._v(" "),
                           _c("input", {
@@ -53788,7 +53788,7 @@
                           _c(
                             "label",
                             { attrs: { for: "exampleFormControlInput2" } },
-                            [_vm._v("Due")]
+                            [_vm._v("Jatuh Tempo")]
                           ),
                           _vm._v(" "),
                           _c("input", {
@@ -53821,7 +53821,7 @@
                           _c(
                             "label",
                             { attrs: { for: "exampleFormControlSelect2" } },
-                            [_vm._v("Pay By")]
+                            [_vm._v("Metode Pembayaran")]
                           ),
                           _vm._v(" "),
                           _c(
@@ -53855,15 +53855,15 @@
                             },
                             [
                               _c("option", { attrs: { value: "Cheque" } }, [
-                                _vm._v("Cheque")
+                                _vm._v("Cek")
                               ]),
                               _vm._v(" "),
                               _c("option", { attrs: { value: "Hand Cash" } }, [
-                                _vm._v("Hand Cash")
+                                _vm._v("Tunai")
                               ]),
                               _vm._v(" "),
                               _c("option", { attrs: { value: "Gift Card" } }, [
-                                _vm._v("Gift Card")
+                                _vm._v("Kartu Kredit")
                               ])
                             ]
                           )
@@ -53875,7 +53875,7 @@
                             staticClass: "btn btn-success",
                             attrs: { type: "submit" }
                           },
-                          [_vm._v("Submit")]
+                          [_vm._v("Kirim")]
                         )
                       ]
                     )
@@ -53895,8 +53895,8 @@
                   [
                     _c(
                       "h5",
-                      { staticClass: "m-0 font-weight-bold text-primary" },
-                      [_vm._v("Products")]
+                      { staticClass: "m-0 font-weight-bold text-warning" },
+                      [_vm._v("Produk")]
                     ),
                     _vm._v(" "),
                     _c("input", {
@@ -53910,7 +53910,7 @@
                       ],
                       staticClass: "form-control",
                       staticStyle: { width: "300px" },
-                      attrs: { type: "text", placeholder: "Search" },
+                      attrs: { type: "text", placeholder: "Cari" },
                       domProps: { value: _vm.searchTerm },
                       on: {
                         input: function($event) {
@@ -54044,7 +54044,7 @@
                                                       _vm._s(
                                                         product.selling_price
                                                       ) +
-                                                      "$"
+                                                      "IDR"
                                                   )
                                                 ]
                                               ),
@@ -54058,7 +54058,7 @@
                                                           "badge badge-success"
                                                       },
                                                       [
-                                                        _vm._v("Available "),
+                                                        _vm._v("Tersedia"),
                                                         _c(
                                                           "span",
                                                           {
@@ -54251,12 +54251,12 @@
         },
         [
           _c("h1", { staticClass: "h3 mb-0 text-gray-800" }, [
-            _vm._v("Dashboard")
+            _vm._v("Beranda")
           ]),
           _vm._v(" "),
           _c("ol", { staticClass: "breadcrumb" }, [
             _c("li", { staticClass: "breadcrumb-item" }, [
-              _c("a", { attrs: { href: "./" } }, [_vm._v("Home")])
+              _c("a", { attrs: { href: "./" } }, [_vm._v("Beranda")])
             ]),
             _vm._v(" "),
             _c(
@@ -54265,7 +54265,7 @@
                 staticClass: "breadcrumb-item active",
                 attrs: { "aria-current": "page" }
               },
-              [_vm._v("Dashboard")]
+              [_vm._v("Beranda")]
             )
           ])
         ]
@@ -54282,14 +54282,14 @@
             "card-header py-3 d-flex flex-row align-items-center justify-content-between"
         },
         [
-          _c("h5", { staticClass: "m-0 font-weight-bold text-primary" }, [
-            _vm._v("Expense Insert")
+          _c("h5", { staticClass: "m-0 font-weight-bold text-warning" }, [
+            _vm._v("Masukkan Beban")
           ]),
           _vm._v(" "),
           _c(
             "a",
-            { staticClass: "btn btn-primary btn-sm", attrs: { href: "" } },
-            [_vm._v("Add Customer")]
+            { staticClass: "btn btn-warning btn-sm", attrs: { href: "" } },
+            [_vm._v("Tambah Pelanggan")]
           )
         ]
       )
@@ -54300,15 +54300,15 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Name")]),
+          _c("th", [_vm._v("Nama")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Qty")]),
+          _c("th", [_vm._v("Jumlah")]),
           _vm._v(" "),
           _c("th", [_vm._v("Unit")]),
           _vm._v(" "),
           _c("th", [_vm._v("Total")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     },
@@ -54317,7 +54317,7 @@
       var _h = _vm.$createElement
       var _c = _vm._self._c || _h
       return _c("div", [
-        _c("h6", { staticClass: "my-0" }, [_vm._v("Total Quantity")])
+        _c("h6", { staticClass: "my-0" }, [_vm._v("Total Kuantitas")])
       ])
     },
     function() {
@@ -54330,14 +54330,14 @@
       var _vm = this
       var _h = _vm.$createElement
       var _c = _vm._self._c || _h
-      return _c("div", [_c("h6", { staticClass: "my-0" }, [_vm._v("Vat")])])
+      return _c("div", [_c("h6", { staticClass: "my-0" }, [_vm._v("PPN")])])
     },
     function() {
       var _vm = this
       var _h = _vm.$createElement
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-success" }, [
-        _c("h6", { staticClass: "my-0" }, [_vm._v("Total (USD)")])
+        _c("h6", { staticClass: "my-0" }, [_vm._v("Total (IDR)")])
       ])
     },
     function() {
@@ -54361,7 +54361,7 @@
                 "aria-selected": "true"
               }
             },
-            [_vm._v("Home")]
+            [_vm._v("Beranda")]
           )
         ]
       )
@@ -54400,11 +54400,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/product" }
                     },
-                    [_vm._v("All Product")]
+                    [_vm._v("Semua Produk")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -54438,7 +54438,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Enter Product Name"
+                                  placeholder: "Masukkan Nama Produk"
                                 },
                                 domProps: { value: _vm.form.product_name },
                                 on: {
@@ -54480,7 +54480,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputEmail",
-                                  placeholder: "Enter Product Code"
+                                  placeholder: "Masukkan Kode Produk"
                                 },
                                 domProps: { value: _vm.form.product_code },
                                 on: {
@@ -54512,7 +54512,7 @@
                               _c(
                                 "label",
                                 { attrs: { for: "exampleFormControlSelect1" } },
-                                [_vm._v("Seletct Category")]
+                                [_vm._v("Pilih Kategori")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -54564,7 +54564,7 @@
                               _c(
                                 "label",
                                 { attrs: { for: "exampleFormControlSelect2" } },
-                                [_vm._v("Seletct Supplier")]
+                                [_vm._v("Pilih Pemasok")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -54630,7 +54630,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputPhone",
-                                  placeholder: "Enter root"
+                                  placeholder: "Masukkan Status"
                                 },
                                 domProps: { value: _vm.form.root },
                                 on: {
@@ -54668,7 +54668,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Buying Price"
+                                  placeholder: "Masukkan Harga Beli"
                                 },
                                 domProps: { value: _vm.form.buying_price },
                                 on: {
@@ -54706,7 +54706,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Selling Price"
+                                  placeholder: "Masukkan Harga Jual"
                                 },
                                 domProps: { value: _vm.form.selling_price },
                                 on: {
@@ -54748,7 +54748,7 @@
                                 attrs: {
                                   type: "date",
                                   id: "exampleInputAddress",
-                                  placeholder: "Enter Buying Date"
+                                  placeholder: "Masukkan Tanggal Pembelian"
                                 },
                                 domProps: { value: _vm.form.buying_date },
                                 on: {
@@ -54786,7 +54786,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputNid",
-                                  placeholder: "Enter Product Quantity"
+                                  placeholder: "Masukkan Kuantitas Produk"
                                 },
                                 domProps: { value: _vm.form.product_quantity },
                                 on: {
@@ -54828,7 +54828,7 @@
                                     staticClass: "custom-file-label",
                                     attrs: { for: "customFile" }
                                   },
-                                  [_vm._v("Choose file")]
+                                  [_vm._v("Pilih Foto")]
                                 )
                               ])
                             ]),
@@ -54864,7 +54864,7 @@
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [
-          _vm._v("Add Product")
+          _vm._v("Tambah Produk")
         ])
       ])
     },
@@ -54875,8 +54875,8 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
-          [_vm._v("Submit")]
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
+          [_vm._v("Kirim")]
         )
       ])
     }
@@ -54914,11 +54914,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/product" }
                     },
-                    [_vm._v("All Product")]
+                    [_vm._v("Semua Produk")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -54952,7 +54952,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Enter Product Name"
+                                  placeholder: "Masukkan Nama Produk"
                                 },
                                 domProps: { value: _vm.form.product_name },
                                 on: {
@@ -54994,7 +54994,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputEmail",
-                                  placeholder: "Enter Product Code"
+                                  placeholder: "Masukkan Kode Produk"
                                 },
                                 domProps: { value: _vm.form.product_code },
                                 on: {
@@ -55026,7 +55026,7 @@
                               _c(
                                 "label",
                                 { attrs: { for: "exampleFormControlSelect1" } },
-                                [_vm._v("Seletct Category")]
+                                [_vm._v("Pilih Kategori")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -55078,7 +55078,7 @@
                               _c(
                                 "label",
                                 { attrs: { for: "exampleFormControlSelect2" } },
-                                [_vm._v("Seletct Supplier")]
+                                [_vm._v("Pilih Pemasok")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -55144,7 +55144,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputPhone",
-                                  placeholder: "Enter root"
+                                  placeholder: "Masukkan Status"
                                 },
                                 domProps: { value: _vm.form.root },
                                 on: {
@@ -55182,7 +55182,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Buying Price"
+                                  placeholder: "Masukkan Harga Beli"
                                 },
                                 domProps: { value: _vm.form.buying_price },
                                 on: {
@@ -55220,7 +55220,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Selling Price"
+                                  placeholder: "Masukkan Harga Jual"
                                 },
                                 domProps: { value: _vm.form.selling_price },
                                 on: {
@@ -55262,7 +55262,7 @@
                                 attrs: {
                                   type: "date",
                                   id: "exampleInputAddress",
-                                  placeholder: "Enter Buying Date"
+                                  placeholder: "Masukkan Tanggal Pembelian"
                                 },
                                 domProps: { value: _vm.form.buying_date },
                                 on: {
@@ -55300,7 +55300,7 @@
                                 attrs: {
                                   type: "number",
                                   id: "exampleInputNid",
-                                  placeholder: "Enter Product Quantity"
+                                  placeholder: "Masukkan Kuantitas Produk"
                                 },
                                 domProps: { value: _vm.form.product_quantity },
                                 on: {
@@ -55342,7 +55342,7 @@
                                     staticClass: "custom-file-label",
                                     attrs: { for: "customFile" }
                                   },
-                                  [_vm._v("Choose file")]
+                                  [_vm._v("Pilih Foto")]
                                 )
                               ])
                             ]),
@@ -55389,7 +55389,7 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
           [_vm._v("Update")]
         )
       ])
@@ -55428,7 +55428,7 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/stock" }
                     },
@@ -55463,7 +55463,7 @@
                             attrs: {
                               type: "number",
                               id: "exampleInputNid",
-                              placeholder: "Enter Product Quantity"
+                              placeholder: "Masukkan Kuantitas Produk"
                             },
                             domProps: { value: _vm.form.product_quantity },
                             on: {
@@ -55518,7 +55518,7 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
           [_vm._v("Update")]
         )
       ])
@@ -55557,8 +55557,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Product List")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("Daftar Produk")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -55572,7 +55572,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -55587,11 +55587,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/store-product" }
                     },
-                    [_vm._v("Add Product")]
+                    [_vm._v("Tambah Produk")]
                   )
                 ],
                 1
@@ -55638,7 +55638,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "editProduct",
@@ -55646,7 +55646,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Edit")]
+                                [_vm._v("Ganti")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -55660,7 +55660,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Delete")]
+                                [_vm._v("Hapus")]
                               )
                             ],
                             1
@@ -55687,27 +55687,27 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Product Name")]),
+          _c("th", [_vm._v("Nama Produk")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Image")]),
+          _c("th", [_vm._v("Foto")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Product Code")]),
+          _c("th", [_vm._v("Kode Produk")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Category")]),
+          _c("th", [_vm._v("Kategori")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Supplier")]),
+          _c("th", [_vm._v("Pemasok")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Root")]),
+          _c("th", [_vm._v("Status")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Buying Price")]),
+          _c("th", [_vm._v("Harga Beli")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Selling Price")]),
+          _c("th", [_vm._v("Harga Jual")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Product Quantity")]),
+          _c("th", [_vm._v("Kuantitas Produk")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Buying Date")]),
+          _c("th", [_vm._v("Tanggal Pembelian")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -55745,8 +55745,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Stock List")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("Daftar Stok")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -55760,7 +55760,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -55775,11 +55775,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/store-product" }
                     },
-                    [_vm._v("Add Product")]
+                    [_vm._v("Tambah Produk")]
                   )
                 ],
                 1
@@ -55815,7 +55815,7 @@
                                 _c(
                                   "span",
                                   { staticClass: "badge badge-success" },
-                                  [_vm._v("Available")]
+                                  [_vm._v("Tersedia")]
                                 )
                               ])
                             : _c("td", [
@@ -55834,7 +55834,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "editStock",
@@ -55842,7 +55842,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Edit Stock")]
+                                [_vm._v("Ganti Stok")]
                               )
                             ],
                             1
@@ -55869,21 +55869,21 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Product Name")]),
+          _c("th", [_vm._v("Nama Produk")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Product Code")]),
+          _c("th", [_vm._v("Kode Produk")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Image")]),
+          _c("th", [_vm._v("Foto")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Category")]),
+          _c("th", [_vm._v("Kategori")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Buying Price")]),
+          _c("th", [_vm._v("Harga Beli")]),
           _vm._v(" "),
           _c("th", [_vm._v("Status")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Quantity")]),
+          _c("th", [_vm._v("Kuantitas")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -55921,8 +55921,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Employee List")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("List Karyawan")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -55936,7 +55936,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -55951,11 +55951,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/salary" }
                     },
-                    [_vm._v("All Salary")]
+                    [_vm._v("Semua Gaji")]
                   )
                 ],
                 1
@@ -55992,7 +55992,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "paySalary",
@@ -56000,7 +56000,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Pay Salary")]
+                                [_vm._v("Pembayaran Gaji")]
                               )
                             ],
                             1
@@ -56027,17 +56027,17 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Name")]),
+          _c("th", [_vm._v("Nama")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Photo")]),
+          _c("th", [_vm._v("Foto")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Phone")]),
+          _c("th", [_vm._v("Telepon")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Salary")]),
+          _c("th", [_vm._v("Gaji")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Joining Date")]),
+          _c("th", [_vm._v("Tanggal Bergabung")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -56075,7 +56075,7 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/salary" }
                     },
@@ -56119,7 +56119,7 @@
                                   disabled: "",
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Name"
+                                  placeholder: "Nama"
                                 },
                                 domProps: { value: _vm.form.name },
                                 on: {
@@ -56226,7 +56226,7 @@
                                   disabled: "",
                                   type: "number",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Salary"
+                                  placeholder: "Masukkan Gaji"
                                 },
                                 domProps: { value: _vm.form.amount },
                                 on: {
@@ -56254,7 +56254,7 @@
                               _c(
                                 "label",
                                 { attrs: { for: "exampleFormControlSelect1" } },
-                                [_vm._v("Select Month")]
+                                [_vm._v("Pilih Bulan")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -56390,7 +56390,7 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
           [_vm._v("Update")]
         )
       ])
@@ -56429,8 +56429,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Months")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("Bulan")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -56444,7 +56444,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -56459,11 +56459,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/given-salary" }
                     },
-                    [_vm._v("Pay Salary")]
+                    [_vm._v("Pembayaran Gaji")]
                   )
                 ],
                 1
@@ -56488,7 +56488,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "viewSalary",
@@ -56496,7 +56496,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("View Salary")]
+                                [_vm._v("Lihat Gaji")]
                               )
                             ],
                             1
@@ -56523,9 +56523,9 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Month")]),
+          _c("th", [_vm._v("Bulan")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Paid Salary")])
+          _c("th", [_vm._v("Gaji yang Dibayar")])
         ])
       ])
     }
@@ -56563,11 +56563,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/given-salary" }
                     },
-                    [_vm._v("Add Salary")]
+                    [_vm._v("Tambah Gaji")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -56590,7 +56590,7 @@
                               _c(
                                 "label",
                                 { attrs: { for: "exampleFormControlSelect1" } },
-                                [_vm._v("Name")]
+                                [_vm._v("Nama")]
                               ),
                               _vm._v(" "),
                               _c("input", {
@@ -56607,7 +56607,7 @@
                                   disabled: "",
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Name"
+                                  placeholder: ""
                                 },
                                 domProps: { value: _vm.form.name },
                                 on: {
@@ -56672,7 +56672,7 @@
                               _c(
                                 "label",
                                 { attrs: { for: "exampleFormControlSelect1" } },
-                                [_vm._v("Salary")]
+                                [_vm._v("Gaji")]
                               ),
                               _vm._v(" "),
                               _c("input", {
@@ -56689,7 +56689,7 @@
                                   disabled: "",
                                   type: "number",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Salary"
+                                  placeholder: "Masukkan Gaji"
                                 },
                                 domProps: { value: _vm.form.salary },
                                 on: {
@@ -56717,7 +56717,7 @@
                               _c(
                                 "label",
                                 { attrs: { for: "exampleFormControlSelect1" } },
-                                [_vm._v("Select Month")]
+                                [_vm._v("Pilih Bulan")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -56841,7 +56841,7 @@
       var _h = _vm.$createElement
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-center" }, [
-        _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [_vm._v("Pay Salary")])
+        _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [_vm._v("Pembayaran Gaji")])
       ])
     },
     function() {
@@ -56851,8 +56851,8 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
-          [_vm._v("Pay Now")]
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
+          [_vm._v("Bayar Sekarang")]
         )
       ])
     }
@@ -56890,7 +56890,7 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
                     _vm._v("Paid in this month")
                   ]),
                   _vm._v(" "),
@@ -56905,7 +56905,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -56920,11 +56920,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/salary" }
                     },
-                    [_vm._v("All Salary")]
+                    [_vm._v("Semua Gaji")]
                   )
                 ],
                 1
@@ -56955,7 +56955,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "editSalary",
@@ -56990,15 +56990,15 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Month")]),
+          _c("th", [_vm._v("Bulan")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Employee Name")]),
+          _c("th", [_vm._v("Nama Karyawan")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Amount")]),
+          _c("th", [_vm._v("Jumlah")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Salary Date")]),
+          _c("th", [_vm._v("Tanggal Gaji")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }
@@ -57036,11 +57036,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/employee" }
                     },
-                    [_vm._v("All Supplier")]
+                    [_vm._v("Semua Pemasok")]
                   ),
                   _vm._v(" "),
                   _c("div", { staticClass: "login-form" }, [
@@ -57074,7 +57074,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Enter Your Full Name"
+                                  placeholder: "Masukkan Nama Lengkap Anda"
                                 },
                                 domProps: { value: _vm.form.name },
                                 on: {
@@ -57112,7 +57112,7 @@
                                 attrs: {
                                   type: "email",
                                   id: "exampleInputEmail",
-                                  placeholder: "Enter Email"
+                                  placeholder: "Masukkan Email"
                                 },
                                 domProps: { value: _vm.form.email },
                                 on: {
@@ -57154,7 +57154,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputPhone",
-                                  placeholder: "Enter Phone Number"
+                                  placeholder: "Masukkan Nomor Telepon"
                                 },
                                 domProps: { value: _vm.form.phone },
                                 on: {
@@ -57192,7 +57192,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Shop Name"
+                                  placeholder: "Masukkan Nama Toko"
                                 },
                                 domProps: { value: _vm.form.shopName },
                                 on: {
@@ -57234,7 +57234,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputAddress",
-                                  placeholder: "Enter Full Address"
+                                  placeholder: "Masukkan Alamat Lengkap"
                                 },
                                 domProps: { value: _vm.form.address },
                                 on: {
@@ -57276,7 +57276,7 @@
                                       staticClass: "custom-file-label",
                                       attrs: { for: "customFile" }
                                     },
-                                    [_vm._v("Choose file")]
+                                    [_vm._v("Pilih Foto")]
                                   )
                                 ]
                               )
@@ -57313,7 +57313,7 @@
       var _c = _vm._self._c || _h
       return _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticClass: "h4 text-gray-900 mb-4" }, [
-          _vm._v("Add Supplier")
+          _vm._v("Tambah Pemasok")
         ])
       ])
     },
@@ -57324,8 +57324,8 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
-          [_vm._v("Submit")]
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
+          [_vm._v("Kirim")]
         )
       ])
     }
@@ -57363,7 +57363,7 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/supplier" }
                     },
@@ -57401,7 +57401,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputFirstName",
-                                  placeholder: "Enter Your Full Name"
+                                  placeholder: "Masukkan Nama Lengkap Anda"
                                 },
                                 domProps: { value: _vm.form.name },
                                 on: {
@@ -57439,7 +57439,7 @@
                                 attrs: {
                                   type: "email",
                                   id: "exampleInputEmail",
-                                  placeholder: "Enter Email"
+                                  placeholder: "Masukkan Email"
                                 },
                                 domProps: { value: _vm.form.email },
                                 on: {
@@ -57481,7 +57481,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputPhone",
-                                  placeholder: "Enter Phone Number"
+                                  placeholder: "Masukkan Nomor Telepon"
                                 },
                                 domProps: { value: _vm.form.phone },
                                 on: {
@@ -57519,7 +57519,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputSalary",
-                                  placeholder: "Enter Shop Name"
+                                  placeholder: "Masukkan Nama Toko"
                                 },
                                 domProps: { value: _vm.form.shopName },
                                 on: {
@@ -57561,7 +57561,7 @@
                                 attrs: {
                                   type: "text",
                                   id: "exampleInputAddress",
-                                  placeholder: "Enter Full Address"
+                                  placeholder: "Masukkan Alamat Lengkap"
                                 },
                                 domProps: { value: _vm.form.address },
                                 on: {
@@ -57603,7 +57603,7 @@
                                       staticClass: "custom-file-label",
                                       attrs: { for: "customFile" }
                                     },
-                                    [_vm._v("Choose file")]
+                                    [_vm._v("Pilih Foto")]
                                   )
                                 ]
                               )
@@ -57651,7 +57651,7 @@
       return _c("div", { staticClass: "form-group" }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary btn-block", attrs: { type: "submit" } },
+          { staticClass: "btn btn-warning btn-block", attrs: { type: "submit" } },
           [_vm._v("Update")]
         )
       ])
@@ -57690,8 +57690,8 @@
                     "card-header py-3 d-flex flex-row align-items-center justify-content-between"
                 },
                 [
-                  _c("h2", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                    _vm._v("Supplier List")
+                  _c("h2", { staticClass: "m-0 font-weight-bold text-warning" }, [
+                    _vm._v("Daftar Pemasok")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -57705,7 +57705,7 @@
                     ],
                     staticClass: "form-control",
                     staticStyle: { width: "300px", "margin-right": "-900px" },
-                    attrs: { type: "text", placeholder: "Search By Phone" },
+                    attrs: { type: "text", placeholder: "Cari Lewat Telepon" },
                     domProps: { value: _vm.searchTerm },
                     on: {
                       input: function($event) {
@@ -57720,11 +57720,11 @@
                   _c(
                     "router-link",
                     {
-                      staticClass: "btn btn-primary float-right",
+                      staticClass: "btn btn-warning float-right",
                       staticStyle: { "margin-top": "6px", "margin-right": "6px" },
                       attrs: { to: "/store-supplier" }
                     },
-                    [_vm._v("Add Supplier")]
+                    [_vm._v("Tambah Pemasok")]
                   )
                 ],
                 1
@@ -57761,7 +57761,7 @@
                               _c(
                                 "router-link",
                                 {
-                                  staticClass: "btn btn-sm btn-primary",
+                                  staticClass: "btn btn-sm btn-warning",
                                   attrs: {
                                     to: {
                                       name: "editSupplier",
@@ -57769,7 +57769,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Edit")]
+                                [_vm._v("Ganti")]
                               ),
                               _vm._v(" "),
                               _c(
@@ -57783,7 +57783,7 @@
                                     }
                                   }
                                 },
-                                [_vm._v("Delete")]
+                                [_vm._v("Hapus")]
                               )
                             ],
                             1
@@ -57810,17 +57810,17 @@
       var _c = _vm._self._c || _h
       return _c("thead", { staticClass: "thead-light" }, [
         _c("tr", [
-          _c("th", [_vm._v("Name")]),
+          _c("th", [_vm._v("Nama")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Photo")]),
+          _c("th", [_vm._v("Foto")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Phone")]),
+          _c("th", [_vm._v("Telepon")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Shop Name")]),
+          _c("th", [_vm._v("Nama Toko")]),
           _vm._v(" "),
           _c("th", [_vm._v("Email")]),
           _vm._v(" "),
-          _c("th", [_vm._v("Action")])
+          _c("th", [_vm._v("Tindakan")])
         ])
       ])
     }

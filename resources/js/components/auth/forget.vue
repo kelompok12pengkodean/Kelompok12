@@ -15,7 +15,7 @@
                     placeholder="Enter Email Address">
                   </div>
                   <div class="form-group">
-                    <a href="index.html" class="btn btn-primary btn-block">Reset Password</a>
+                    <a href="index.html" class="btn btn-warning btn-block">Reset Password</a>
                   </div>
                 </form>
 

@@ -6,9 +6,9 @@
 					<!-- Simple Tables -->
 					<div class="card">
 						<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-							<h2 class="m-0 font-weight-bold text-primary">Supplier List</h2>
+							<h2 class="m-0 font-weight-bold text-warning">Supplier List</h2>
 							<input type="text" placeholder="Search By Phone" v-model="searchTerm" class="form-control" style="width: 300px;margin-right: -900px;">
-							<router-link to="/store-supplier" class="btn btn-primary float-right" style="margin-top: 6px;margin-right: 6px;">Add Supplier</router-link>
+							<router-link to="/store-supplier" class="btn btn-warning float-right" style="margin-top: 6px;margin-right: 6px;">Add Supplier</router-link>
 						</div>
 						<div class="table-responsive">
 							<table class="table align-items-center table-flush">
@@ -30,7 +30,7 @@
 										<td>{{ supplier.shopName }}</td>
 										<td>{{ supplier.email }}</td>
 										<td>
-											<router-link :to="{name: 'editSupplier', params: {id: supplier.id}}" class="btn btn-sm btn-primary">Edit</router-link>
+											<router-link :to="{name: 'editSupplier', params: {id: supplier.id}}" class="btn btn-sm btn-warning">Edit</router-link>
 											<a @click="deleteSupplier(supplier.id)" class="btn btn-sm btn-danger" style="color: white">Delete</a>
 										</td>
 									</tr>

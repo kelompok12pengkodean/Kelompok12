@@ -14,7 +14,7 @@
             <div class="col-xl-6 col-lg-6">
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h5 class="m-0 font-weight-bold text-primary">Order Details</h5>
+                  <h5 class="m-0 font-weight-bold text-warning">Order Details</h5>
                 </div>
                 <div class="card-body">
                 	<div class="table-responsive">
@@ -34,7 +34,7 @@
             <div class="col-xl-6 col-lg-6">
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h5 class="m-0 font-weight-bold text-primary">Order Details</h5>
+                  <h5 class="m-0 font-weight-bold text-warning">Order Details</h5>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -56,7 +56,7 @@
             <div class="col-xl-12 col-lg-12">
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h5 class="m-0 font-weight-bold text-primary">Ordered Products</h5>
+                  <h5 class="m-0 font-weight-bold text-warning">Ordered Products</h5>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">

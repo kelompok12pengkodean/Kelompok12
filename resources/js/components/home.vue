@@ -23,7 +23,7 @@
 								</div>
 							</div>
 							<div class="col-auto">
-								<i class="fas fa-calendar fa-2x text-primary"></i>
+								<i class="fas fa-calendar fa-2x text-warning"></i>
 							</div>
 						</div>
 					</div>
@@ -95,8 +95,8 @@
 					<!-- Simple Tables -->
 					<div class="card">
 						<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-							<h2 class="m-0 font-weight-bold text-primary">Stock Out Products</h2>
-							<router-link to="/store-product" class="btn btn-primary float-right" style="margin-top: 6px;margin-right: 6px;">Add Product</router-link>
+							<h2 class="m-0 font-weight-bold text-warning">Stock Out Products</h2>
+							<router-link to="/store-product" class="btn btn-warning float-right" style="margin-top: 6px;margin-right: 6px;">Add Product</router-link>
 						</div>
 						<div class="table-responsive">
 							<table class="table align-items-center table-flush">
@@ -121,7 +121,7 @@
 										<td v-else=""><span class="badge badge-danger">Stock Out</span></td>
 										<td>{{ product.product_quantity }}</td>
 										<td>
-											<router-link :to="{name: 'editStock', params: {id: product.id}}" class="btn btn-sm btn-primary">Edit Stock</router-link>
+											<router-link :to="{name: 'editStock', params: {id: product.id}}" class="btn btn-sm btn-warning">Edit Stock</router-link>
 										</td>
 									</tr>
 								</tbody>

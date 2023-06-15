@@ -29,7 +29,7 @@
 										<small class="text-danger" v-if="errors.password_confirmation">{{ errors.password_confirmation[0] }}</small>
 									</div>
 									<div class="form-group">
-										<button type="submit" class="btn btn-primary btn-block">Register</button>
+										<button type="submit" class="btn btn-warning btn-block">Register</button>
 									</div>
 								</form>
 
